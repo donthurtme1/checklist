@@ -1,6 +1,6 @@
 make:
 	gcc -o checklist main.c
 install:
-	cp -f checklist /usr/local/bin/checklist
+	cp -f checklist /usr/local/bin/todo
 uninstall:
-	rm -f /usr/local/bin/checklist
+	rm -f /usr/local/bin/todo
